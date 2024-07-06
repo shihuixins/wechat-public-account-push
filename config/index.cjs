@@ -6,7 +6,8 @@
  * 自行添加属性，以支持更多个性化功能
  */
 const USER_CONFIG = {
-
+// 请将以下代码按照图示粘贴到对应位置
+USE_PASSAGE: 'push-plus',
   // 使用微信测试号：公众号APP_ID
   APP_ID: 'wxa8675871e88e3993',
 
@@ -21,7 +22,7 @@ const USER_CONFIG = {
       // 想要发送的人的名字
       name: '宝儿',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: 'oad466gmO9LLI-CPHh7sc5RO1d6U,oad466kKRXI2Aat_YLqYIiTcEqLs',
+      id: '3879c997dc304b4f87ce9762cd06c6e4',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
       useTemplateId: 'J5slGq4_Oss0HCspllePui-br8svpv8YgBtUWJ3q094',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
@@ -33,7 +34,7 @@ const USER_CONFIG = {
         },
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
         {
-          type: '生日', name: '李四', year: '1996', date: '09-31',
+          type: '生日', name: '俊阳宝儿', year: '1996', date: '09-31',
         },
         {
           type: '节日', name: '恋爱纪念日', year: '2023', date: '03-18',
@@ -51,7 +52,7 @@ const USER_CONFIG = {
 
 
   // 【推送完成提醒】模板id, 用来看自己有没有发送成功的那个模板
-  CALLBACK_TEMPLATE_ID: 'J5slGq4_Oss0HCspllePui-br8svpv8YgBtUWJ3q094',
+  CALLBACK_TEMPLATE_ID: 'LGbYXmWmdLxs6iTZH_WwHTO8-335XycZXFTDg-3LGN0',
 
   CALLBACK_USERS: [
     {
